@@ -1,6 +1,6 @@
-# 카카오톡 스타일 AI 채팅봇
+# 클론 채팅 앱 (Clone Chat App)
 
-카카오톡과 동일한 UI를 가진 AI 채팅 애플리케이션입니다. Google Gemini API를 활용하여 자연스러운 대화가 가능합니다.
+인기 메신저 앱에서 영감을 받아 제작한 연습용 AI 채팅 애플리케이션입니다. Google Gemini API를 활용하여 자연스러운 대화가 가능합니다.
 
 ## 🔒 보안 특징
 
@@ -10,7 +10,7 @@
 
 ## 기능
 
-- 📱 카카오톡과 동일한 UI/UX
+- 📱 친숙한 메신저 스타일 UI/UX
 - 🤖 Google Gemini AI와의 실시간 대화
 - ⚡ 빠른 응답 및 타이핑 인디케이터
 - 📱 반응형 디자인 (모바일 최적화)
@@ -42,7 +42,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/yourusername/kakao-chat-app.git
+git remote add origin https://github.com/yourusername/clone-chat-app.git
 git push -u origin main
 ```
 
@@ -86,13 +86,13 @@ Google Cloud Console에서 API 키 할당량 설정:
 ## 프로젝트 구조
 
 ```
-kakao/
+clone-chat-app/
 ├── api/
 │   ├── chat.js          # Gemini API 호출 서버리스 함수
 │   └── package.json     # 서버리스 함수 의존성
 ├── src/
 │   ├── App.jsx          # 메인 애플리케이션
-│   ├── App.css          # 카카오톡 스타일
+│   ├── App.css          # 메신저 스타일 CSS
 │   ├── main.jsx         # React 엔트리 포인트
 │   └── index.css        # 글로벌 스타일
 ├── vercel.json          # Vercel 배포 설정
@@ -109,6 +109,16 @@ kakao/
 - **Icons**: Lucide React
 - **Deploy**: Vercel
 
+## 개발 목적
+
+이 프로젝트는 다음을 학습하고 연습하기 위해 제작되었습니다:
+- React 및 모던 JavaScript 개발
+- API 연동 및 비동기 처리
+- 서버리스 아키텍처 구현
+- 보안 모범 사례 적용
+- 반응형 웹 디자인
+- Git 및 배포 프로세스
+
 ## 문제 해결
 
 ### API 오류 발생 시
@@ -120,6 +130,10 @@ kakao/
 1. `vercel.json` 설정 확인
 2. `api/package.json` 의존성 확인
 3. GitHub 저장소 동기화 확인
+
+## 주의사항
+
+이 프로젝트는 학습 및 연습 목적으로 제작되었으며, 상업적 용도로 사용하기 전에는 추가적인 보안 검토와 최적화가 필요합니다.
 
 ## 라이선스
 

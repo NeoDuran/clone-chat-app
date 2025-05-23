@@ -1,7 +1,7 @@
 {
-  "name": "kakao-chat-app",
+  "name": "clone-chat-app",
   "version": "1.0.0",
-  "description": "카카오톡 스타일 AI 채팅 앱",
+  "description": "메신저 스타일 AI 채팅 앱 (연습용)",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -20,9 +20,11 @@
   "keywords": [
     "react",
     "chat",
-    "kakao",
+    "clone",
+    "messenger",
     "gemini",
-    "ai"
+    "ai",
+    "practice"
   ],
   "author": "",
   "license": "ISC"
